@@ -1,0 +1,9 @@
+#body {
+    background-color: antiquewhite;
+}
+
+.popup {
+    position: relative;
+    z-index: 10000;
+    background-color: aliceblue;
+}

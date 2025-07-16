@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToDoListApp</title>
+        <link rel="stylesheet" href="./main.css"/>
+    </head>
+    <body id="body">
+        <header>
+            <h3>What do you wanna do?</h3>
+            <h4>Add Tasks</h4>
+            <form id="new_task">
+                <label for='task'>
+                    <input
+                     id="input" 
+                     name="task"
+                     required
+                    >
+                    <button type="submit" id="add_button"> 
+                        Add
+                    </button>
+                </label>
+            </form>
+        </header>
+        <content>
+            <h3>Tasks</h3>
+            <div id="task_list">
+            </div>
+        </content>
+        <script src="main.js"></script>
+    </body>
+</html>
