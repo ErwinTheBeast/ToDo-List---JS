@@ -1,0 +1,25 @@
+{
+  "name": "todo-list---js",
+  "version": "1.0.0",
+  "description": "A basic Todo List project for learning",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErwinTheBeast/ToDo-List---JS.git"
+  },
+  "author": "shubham.deshpande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErwinTheBeast/ToDo-List---JS/issues"
+  },
+  "homepage": "https://github.com/ErwinTheBeast/ToDo-List---JS#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.7.0",
+    "sass": "^1.89.2"
+  }
+}
